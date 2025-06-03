@@ -18,14 +18,14 @@ const Landing: React.FC = () => {
       <div className="space-x-2">
         <Button title="Medium - sm" styles="text-base rounded-sm" />
         <Button title="Medium - md" styles="text-base rounded-md" />
-        <Button title="Medium - full" styles="text-base rounded-lg" />
+        <Button title="Medium - full" styles="text-base rounded-full" />
       </div>
 
       {/* Large Buttons */}
       <div className="space-x-2">
         <Button title="Large - sm" styles="text-lg rounded-sm" />
         <Button title="Large - md" styles="text-lg rounded-md" />
-        <Button title="Large - full" styles="text-lg rounded-lg" />
+        <Button title="Large - full" styles="text-lg rounded-full" />
       </div>
         </div>
     )
